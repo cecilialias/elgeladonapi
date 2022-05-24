@@ -1,0 +1,29 @@
+{
+  "name": "backendpaletas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node src/server",
+    "dev": "nodemon src/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cecilialias/backendPaletas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cecilialias/backendPaletas/issues"
+  },
+  "homepage": "https://github.com/cecilialias/backendPaletas#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.4",
+    "nodemon": "^2.0.16",
+    "src": "^1.0.0",
+    "sucrase": "^3.21.0"
+  }
+}
